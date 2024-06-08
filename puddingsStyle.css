@@ -1,14 +1,35 @@
+@font-face {
+	font-family: Playpen Sans; src: url('PlaypenSans-VariableFont_wght.ttf');
+}
+
+html {
+  height: 100%;
+}
+
 body {
 	background-color: #14171c;
+	background: linear-gradient(49deg, #1a001c 0%, #270e36 14%, #4d1434 36%, #542b09 84%, #693308 100%);
+	width: 99%;
 }
 
 h1 {
 	color: #ededed;
+	font-family: Playpen Sans;
 }
 p {
 	color: #ededed;
+	font-family: Playpen Sans;
+
 }
 .intro {
-	
+	background-color: #14171c;
 	text-align: center;
+	border-style: dashed;
+	border-color: #804008;
+  	margin-bottom: 100px;
+  	margin-right: 250px;
+  	margin-left: 180px;
+	padding-bottom: 30px;
+ 	border-radius: 20px
+
 }
