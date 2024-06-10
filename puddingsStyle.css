@@ -9,27 +9,35 @@ html {
 body {
 	background-color: #14171c;
 	background: linear-gradient(49deg, #1a001c 0%, #270e36 14%, #4d1434 36%, #542b09 84%, #693308 100%);
-	width: 99%;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
 }
 
 h1 {
 	color: #ededed;
 	font-family: Playpen Sans;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000;
 }
 p {
 	color: #ededed;
 	font-family: Playpen Sans;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 2px 0 #000;
 
 }
 .intro {
-	background-color: #14171c;
+	background-color: rgba(20, 23, 28, 0.6);
 	text-align: center;
 	border-style: dashed;
 	border-color: #804008;
-  	margin-bottom: 100px;
-  	margin-right: 250px;
-  	margin-left: 180px;
+  	margin: auto;
+	margin-top: -10px;
+	margin-bottom: 100px;
+	padding-top: 10px;
 	padding-bottom: 30px;
- 	border-radius: 20px
+ 	border-radius: 20px;
+	width: 50%;
+	min-width: 480px;
+	
 
 }
