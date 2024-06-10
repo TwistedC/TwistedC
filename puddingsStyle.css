@@ -9,7 +9,7 @@ html {
 body {
 	background-color: #14171c;
 	background: linear-gradient(49deg, #1a001c 0%, #270e36 14%, #4d1434 36%, #542b09 84%, #693308 100%);
-	width: 100%;
+	width: 101%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -36,8 +36,9 @@ p {
 	padding-top: 10px;
 	padding-bottom: 30px;
  	border-radius: 20px;
-	width: 50%;
-	min-width: 480px;
+	width: 80%;
+	height: auto;
+	min-width: min-content;
 	
 
 }
