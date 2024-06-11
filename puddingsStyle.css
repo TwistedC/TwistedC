@@ -4,7 +4,7 @@
 
 html {
   height: 100%;
-  font-size: calc(30px - 0.3vw);
+  font-size: 25px;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-	font-size: 1.5rem;
+	font-size: 1.33rem;
 	color: #ededed;
 	font-family: Playpen Sans;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000;
