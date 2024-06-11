@@ -4,10 +4,11 @@
 
 html {
   height: 100%;
+  font-size: calc(13px + 1vw);
 }
 
 body {
-	font-size: calc(16px + 0.390625vw);
+	/*0.390625vw);*/
 	background-color: #14171c;
 	background: linear-gradient(49deg, #1a001c 0%, #270e36 14%, #4d1434 36%, #542b09 84%, #693308 100%);
 	background-size: contain;
@@ -17,7 +18,7 @@ body {
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	color: #ededed;
 	font-family: Playpen Sans;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000;
@@ -36,7 +37,7 @@ p {
   	margin: auto;
 	margin-top: -10px;
 	margin-bottom: 100px;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 30px;
  	/*border-radius: 20px;*/
 	width: 100%;
