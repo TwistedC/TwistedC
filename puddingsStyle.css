@@ -7,14 +7,17 @@ html {
 }
 
 body {
+	font-size: calc(16px + 0.390625vw);
 	background-color: #14171c;
 	background: linear-gradient(49deg, #1a001c 0%, #270e36 14%, #4d1434 36%, #542b09 84%, #693308 100%);
-	width: 101%;
+	background-size: contain;
+	/*width: 100%;*/
 	margin: auto;
 	overflow: hidden;
 }
 
 h1 {
+	font-size: 2.5rem;
 	color: #ededed;
 	font-family: Playpen Sans;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000;
@@ -28,17 +31,18 @@ p {
 .intro {
 	background-color: rgba(20, 23, 28, 0.6);
 	text-align: center;
-	border-style: dashed;
+	border-bottom-style: dashed;
 	border-color: #804008;
   	margin: auto;
 	margin-top: -10px;
 	margin-bottom: 100px;
 	padding-top: 10px;
 	padding-bottom: 30px;
- 	border-radius: 20px;
-	width: 80%;
+ 	/*border-radius: 20px;*/
+	width: 100%;
 	height: auto;
 	min-width: min-content;
 	
 
 }
+
