@@ -125,4 +125,11 @@ a{
 	text-align: center;
 	background-color: rgba(28, 6, 28, 0.6);
 	width: 100%;
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #1e2e7a;
+	accent-color: #1a001c;
+	width: 50%;
+	height: 175px;
+	/*&amp;link_color=68ff76&amp;" width="560" height="175">*/
 }
