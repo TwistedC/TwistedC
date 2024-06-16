@@ -22,7 +22,10 @@ body {
 	margin: auto;
 	overflow-x: hidden;
 }
-
+img {
+	width: 100%;
+	height: auto;
+  }
 h1 {
 	font-size: 1.33rem;
 	color: #ededed;
@@ -70,7 +73,7 @@ p, a {
 	
 }
 .no-pie{
-	width: min-content;
+	width:fit-content;
 	padding-left: 5%;
 	padding-right: 5%;
 
