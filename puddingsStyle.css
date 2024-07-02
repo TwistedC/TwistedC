@@ -84,6 +84,10 @@ p, a {
 	border-width: 1px;
 }
 
+.pixelated {
+	image-rendering: pixelated;
+  }
+
 .ga-nav{
 	width: 100px;
 	height: auto;
