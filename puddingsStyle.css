@@ -96,10 +96,11 @@ p, a {
 
 .ga-nav{
 	width: 100px;
+	min-width: min-content;
 	height: auto;
 	margin: auto;
 	padding: auto;
-	position: -webkit-sticky;
+	
 	
 	top: 0;
 }
@@ -112,6 +113,7 @@ p, a {
 	float: right;
 	border-bottom: 1px dashed;
 	border-color: #804008;
+	position: -webkit-sticky;
 }
 
 
@@ -120,8 +122,8 @@ p, a {
 	background-color: rgba(106, 0, 130, 0.483);
 }
 
-.navselected{
-	background-color: rgba(17, 54, 29, 0.6);
+.navbar-active, .navbar a:hover{
+	background-color: rgba(72, 24, 41, 0.483);
 }
 
 li {
